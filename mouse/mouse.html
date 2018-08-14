@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>mouse</title>
+        <link rel="stylesheet" type="text/css" href="mouse.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="mouse.js"></script>
+    </head>
+
+    <body>
+        <!--header view-->
+        <div class="header">
+            <button type="button" id="startBtn" onclick="startGame()">start</button>
+        </div>
+
+        <!--main view-->
+        <div class="main">
+            <!--left view-->
+            <div class="left" style="background-color:darkseagreen">
+            </div>
+
+            <!--middle view-->
+            <div class="middle" id="middle" style="background-color:antiquewhite">
+                <!--square 3*3-->
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            
+            <!--right view-->
+            <div class="right" style="background-color:burlywood"></div>
+        </div>
+        
+        <!--footer view-->
+        <div class="footer"></div>
+    </body>
+</html>

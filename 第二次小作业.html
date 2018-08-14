@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>第二次小作业</title>
+
+<style type="text/css">
+
+div.header {height: 20px; background-color: cadetblue; margin-bottom: 10px}
+div.main {height: 190px; margin-bottom: 10px}
+div.left 
+{
+    height: 190px;
+    width: 100px;
+    float: left;
+    position: relative;
+    left: 0px;
+}
+
+div.right 
+{
+    height: 190px;
+    width: 200px;
+    float: left;
+    position: relative;
+    right: 0px;
+}
+
+div.middle 
+{
+    height: 190px;
+    width: calc(100% - 300px);
+    float: left;
+    position: relative;
+}
+
+div.square
+{
+    background-color: darksalmon;
+    float: left;
+    position: relative;
+    margin: 5px;
+    height: 50px;
+    width: calc((100% - 40px) / 3);
+    top: 5px;
+    left: 5px;
+}
+p {text-align: center; color: white}
+
+</style>
+</head>
+
+<body>
+    <!--header view-->
+	<div class="header">
+        <p>header</p>
+    </div>
+
+    <!--main view-->
+    <div class="main">
+        <!--left view-->
+        <div class="left" style="background-color:darkseagreen">
+        </div>
+
+        <!--middle view-->
+        <div class="middle" style="background-color:antiquewhite">
+            <!--九宫格-->
+            <div class="square">
+                <p>1</p>
+            </div>
+            <div class="square">
+                <p>2</p>
+            </div>
+            <div class="square"> 
+                <p>3</p>
+            </div>
+            <div class="square"> 
+                <p>4</p>
+            </div>
+            <div class="square"> 
+                <p>5</p>
+            </div>
+            <div class="square"> 
+                <p>6</p>
+            </div>
+            <div class="square"> 
+                <p>7</p>
+            </div>
+            <div class="square"> 
+                <p>8</p>
+            </div>
+            <div class="square"> 
+                <p>9</p>
+            </div>
+        </div>
+        
+        <!--right view-->
+        <div class="right" style="background-color:burlywood">
+        </div>
+    </div>
+    
+    <!--footer view-->
+    <div class="header">
+    	<p>footer</p>
+    </div>
+</body>
+</html>
